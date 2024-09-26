@@ -13,7 +13,7 @@
 .sectionP1{
 	padding: 40px 80px;
 }
-#sectionM1{
+.sectionM1{
 	margin: 40px 0;
 }
 button.normal{
@@ -373,7 +373,7 @@ header nav ul li a:hover{
 	flex-wrap: wrap;
 	align-items: center;
 	background-repeat: no-repeat;
-	background-position: 20% 30%;
+	background-position: 100% 30%;
 	background-color: #041e42;
 }
 #newsletter h4{
@@ -636,6 +636,7 @@ footer .follow i:hover,
 	height: 100%;
 	border-radius: 20px;
 }
+
 /*Contact Page*/
 
 .container{
@@ -648,7 +649,7 @@ footer .follow i:hover,
 #formDetails .form{
 	width: 50%;
 }
-@media () {
+@media (max-width:477px){
 	.sectionP1{
 		padding: 20px;
 	}
@@ -789,6 +790,16 @@ footer .follow i:hover,
 	color: #000;
 }
 /* Cart Page */
+#cartAdd{
+	flex-direction: column;
+}
+#coupon{
+	width: 100%;
+}
+#subtotal{
+	width: 100%;
+	padding: 20px;
+}
 .container{
     width: 1140px;
     margin: auto;
