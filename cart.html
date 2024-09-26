@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+	<title>cart</title>
+</head>
+<body>
+    <div class="fullcontainer" id="cartSection">
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="IMG-20240923-WA0010-removebg-preview.png" alt="Image not supported by device">
+                </div>
+            </div>
+    
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html"><i class='fas fa-shopping-basket'></i></a></li>
+                    <a href="#" id="close"><i class="fa-duotone fa-solid fa-xmark"></i></a>
+                </ul>
+            </nav>
+            <div id="mobile">
+                <a href="cart.html"><i class="fa fa-shopping-bag"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </header>
+        <div class="container" id="aboutHeader">
+            <h2>Let's talk</h2>
+            <p>Leave a message,we love to hear from you!</p>
+        </div>
+        <div class="container" id="cart">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                        <td><img src="https://th.bing.com/th/id/R.e6317ae50272761f79c6ae820bbcee0f?rik=17RS%2bcuJSeDVsA&pid=ImgRaw&r=0"></td>
+                        <td>Beyonce long light wavy</td>
+                        <td>$100</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$100</td>
+                    </tr>
+                        <tr>
+                        <td><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                        <td><img src="https://th.bing.com/th/id/OIP.KWI578QWfQNFpuGpU3yzQAAAAA?rs=1&pid=ImgDetMain"></td>
+                        <td>silky straight lace</td>
+                        <td>$100</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$100</td>
+                    </tr>
+                        <tr>
+                        <td><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                        <td><img src="https://www.heywigs.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/r/cropped_wig_with_short_loose_curls.jpg"></td>
+                        <td>Fashion cropped wig</td>
+                        <td>$100</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$100</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container" id="cartAdd">
+            <div id="coupon">
+                <h3>Apply Coupon</h3>
+                <div>
+                    <input type="text" placeholder="Enter Your Coupon">
+                    <button class="normal">Apply</button>
+                </div>
+            </div>
+    
+            <div id="subtotal">
+                <h3>Cart Totals</h3>
+                <table>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>$300</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>$300</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Proceed to checkout</button>
+            </div>
+        </div>
+        <footer>
+            <div class="col">
+                <img class="logo" src="img/logo.png">
+                <h4>contact</h4>
+                <p><strong>Address: </strong> Biashara Street, Nairobi</p>
+                <p><strong>Phone: </strong> 0714589441 / 0100735079</p>
+                <p><strong>Hours: </strong> 9:00 - 5:00, Mon - Sun</p>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+    
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+            </div>
+    
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="https://cdn.vectorstock.com/i/1000v/22/63/apple-app-store-icon-logo-symbol-black-design-vector-46322263.jpg">
+                    <img src="https://i1.wp.com/9to5google.com/wp-content/uploads/sites/4/2022/07/current-google-play-icon.jpg?ssl=1">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="https://sextoysonlinestore.com/img/cms/Sextoysonlinestore-com%20Secure%20Payment.png" alt="Payment Gateways">
+            </div>
+    
+            <div class="copyright">
+                <p>@2024, website developed by Jewel</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
