@@ -89,7 +89,7 @@ header nav ul li a:hover{
 .banner {
     min-height: 100vh;
     width: 100%;
-    background-image: url();
+    background-image: url(bg_60241.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
